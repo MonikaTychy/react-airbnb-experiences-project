@@ -8,3 +8,28 @@ nav {
 .nav--logo {
   max-width: 100%;
 }
+
+.hero img {
+  display: block;
+  margin: 0px auto;
+  width: 395.91px;
+  height: 232px;
+}
+
+.hero h1, .hero p {
+  line-height: 110%;
+  margin-left: 36px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #222222;
+}
