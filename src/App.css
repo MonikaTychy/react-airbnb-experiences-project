@@ -7,6 +7,7 @@ nav {
 
 section {
   margin: 20px;
+  line-height: 110%;
 }
 
 .nav--logo {
@@ -24,7 +25,6 @@ section {
 }
 
 .hero h1, .hero p {
-  line-height: 110%;
   margin-left: 36px;
 }
 
@@ -39,4 +39,34 @@ section {
   font-size: 16px;
   font-weight: 300;
   color: #222222;
+}
+
+.card {
+  font-weight: 300;
+  font-size: 12px;
+  color: #222222;
+}
+
+.card-photo {
+  max-width: 175px;
+}
+
+.card-statistic {
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.card-star {
+  max-width: 14px;
+  max-height: 14px;
+}
+
+.card-reviews, .card-location {
+  color: #918E9B;
+}
+
+.card-price {
+  font-weight: 600;
 }
